@@ -1,0 +1,14 @@
+fastapi==0.112.2
+fastapi_limiter==0.1.6
+passlib==1.7.4
+pydantic==2.8.2
+pydantic_settings==2.4.0
+pymongo==4.8.0
+python_jose==3.3.0
+redis==5.1.0b7
+setuptools==74.0.0
+starlette==0.38.2
+toml==0.10.2
+uvicorn==0.30.6
+colorama
+termcolor

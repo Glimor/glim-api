@@ -19,9 +19,16 @@ To install Glim API, run the following command:
 
     `pip install glimapi` 
 
-## ⚙️ Configuration
 
-Once installed, a `config.toml` file will be automatically generated in your project directory. This file holds all the configuration settings for Glim API, allowing for extensive customization.
+### ⚙️ Configuration
+
+Once installed, you can generate a `config.toml` file by running the following command:
+
+    `glimapi-generate-toml` 
+
+This command will create a `config.toml` file in your project directory which holds all the configuration settings for Glim API, allowing for extensive customization.
+
+Additionally, the command will also generate a `middlewares` directory in your project root. You can add your custom middleware files to this directory to extend or modify the functionality of Glim API.
 
 ### Customizing `config.toml`
 

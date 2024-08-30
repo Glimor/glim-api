@@ -70,16 +70,11 @@ if settings.rate_limiting["enabled"]:
     setup_rate_limiting(settings, app)
 
 # Load custom middleware modules from the "middlewares" directory
-default_middleware = os.path.join(os.path.dirname(__file__), "middlewares")
-middleware_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "middlewares")
 target_copy_dir = os.path.join(os.getcwd(), "middlewares")
-if not os.path.exists(target_copy_dir):
-    print(f"Creating middleware directory: {middleware_dir}")
-    shutil.copytree(default_middleware, target_copy_dir)
-for filename in os.listdir(middleware_dir):
+for filename in os.listdir(target_copy_dir):
     if filename.endswith(".py"):
         module_name = filename[:-3]
-        spec = importlib.util.spec_from_file_location(module_name, os.path.join(middleware_dir, filename))
+        spec = importlib.util.spec_from_file_location(module_name, os.path.join(target_copy_dir, filename))
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
 

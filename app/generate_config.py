@@ -11,3 +11,9 @@ def generate_toml():
         print(f"config.toml file has been created at {target_config}.")
     else:
         print(f"config.toml file already exists at {target_config}.")
+        
+    default_middleware = os.path.join(os.path.dirname(__file__), "middlewares")
+    target_copy_dir = os.path.join(os.getcwd(), "middlewares")
+    if not os.path.exists(target_copy_dir):
+        print(f"Creating middleware directory: {target_copy_dir}")
+        shutil.copytree(default_middleware, target_copy_dir)

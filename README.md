@@ -1,7 +1,7 @@
 ![enter image description here](https://i.ibb.co/bKj5Dvk/glim.png)
 ## Overview
 
-**Glim API** is a powerful and flexible dynamic API generator designed to simplify the creation of RESTful APIs. With built-in authentication, rate limiting, and localization, Glim API provides a robust framework tailored to meet diverse needs. Configure everything easily with a `config.toml` file, making setup quick and painless.
+**Glim API** is a powerful and flexible dynamic API generator designed to simplify the creation of RESTful APIs with FastAPI. With built-in authentication, rate limiting, and localization, Glim API provides a robust framework tailored to meet diverse needs. Configure everything easily with a `config.toml` file, making setup quick and painless.
 
 > **Note:** Glim API is currently under active development. You might encounter some bugs or incomplete features. We appreciate your feedback and contributions to help improve the project!
 
@@ -86,3 +86,9 @@ This project is licensed under the **CC BY-NC-SA 4.0 License**.
 -   🎓 **Personal and Educational Use**: The project is intended for personal and educational use only.
 
 For more details, please refer to the [LICENSE](LICENSE) file.
+
+## Support the Project
+
+If you like this project and want to support its development, consider buying me a coffee!
+
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/glimor)

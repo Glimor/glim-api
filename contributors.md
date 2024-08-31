@@ -1,17 +1,7 @@
-# Contributors
-
-**Welcome to the Contributors page of Glim API!**  
+## Contributors
 This project is built and maintained by a community of dedicated individuals. As of now, there are no contributors, but we're excited to see who will be the first to join our journey!
 
-<div style="text-align: center; padding: 20px; background-color: #f9f9f9; border-radius: 10px; margin-top: 20px;">
-  <h2>👥 Be the First Contributor!</h2>
-  <p>We are looking forward to your contributions. Whether you're a developer, designer, writer, or just someone with a passion for this project, we'd love to have you onboard.</p>
-  <a href="https://github.com/Glimor/glim-api" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Become%20a%20Contributor-green?style=for-the-badge&logo=github" alt="Become a Contributor">
-  </a>
-</div>
-
-## How to Contribute
+### Hows to Contribute
 
 1. **Fork the Repository**: Start by forking the repository to your GitHub account.
 2. **Create a New Branch**: Work on your changes in a new branch.
@@ -19,9 +9,11 @@ This project is built and maintained by a community of dedicated individuals. As
 4. **Submit a Pull Request**: When your changes are ready, submit a pull request for review.
 
 <div style="text-align: center; margin-top: 40px;">
-  <h3>🎉 Your Name Could Be Here Next!</h3>
-  <img src="https://github.com/glimor.png" width="100" height="100" style="border-radius: 50%;" alt="Glimor"/>
+  <h2>🎉 Your Name Could Be Here Next!</h2>
+  <img src="https://github.com/glimor.png" width="120" height="120" style="border-radius: 50%; margin-top: 10px; border: 2px solid #ed771c;" alt="Glimor"/>
+  <p style="font-size: 1.2em; margin-top: 10px;"><strong>Glimor</strong></p>
 </div>
+
 
 ---
 
